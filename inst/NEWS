@@ -1,0 +1,11 @@
+=== rngWELL: WELL random number generators ===
+
+
+Version 0.9
+=============
+
+- extract from randtoolbox the C code of WELL generators by F. Panneton,
+  P. L'Ecuyer and M. Matsumoto.
+- the common parts of the C files for WELL generators are in common
+  header files included into each of the generators.
+
