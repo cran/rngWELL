@@ -2,6 +2,9 @@
 \alias{pseudo.rngWELL}
 \alias{WELL2test}
 \alias{setSeed4WELL}
+\alias{doinitMT2002}
+\alias{doputRngWELL}
+\alias{dogetRngWELL}
 \title{Toolbox for pseudo and quasi random number generation}
 \description{
 	General linear congruential generators such as Park Miller sequence,
@@ -13,6 +16,11 @@
 \usage{
 WELL2test(n, dim = 1, order = 512, temper = FALSE, version = "a")
 setSeed4WELL(seed)
+
+doinitMT2002(seed, n, state)
+doputRngWELL(order, version, state)
+dogetRngWELL(order, version, state)
+
 }
 \arguments{
   \item{n}{number of observations. If length(n) > 1, 
@@ -22,7 +30,8 @@ setSeed4WELL(seed)
   		append your day, your month and your year of birth.}
   \item{order}{a positive integer for the order of the characteristic polynomial. see details}
   \item{temper}{a logical if you want to do a tempering stage. see details}
-  \item{version}{a character either 'a' or 'b'. see details}
+  \item{version}{a character either \code{"a"},\code{"b"} or \code{"c"}. see details}
+  \item{state}{the state as output of \code{putRngWELL}, \code{getRngWELL}.}
 }
 \details{
 
@@ -93,6 +102,11 @@ setSeed4WELL(08082008)
 WELL2test(10, order =19937)
 setSeed4WELL(08082008)
 WELL2test(10, order =19937, temper=TRUE)
+
+
+# (2) other tests
+#
+doinitMT2002(1, 10, 10)
 
 }
 \keyword{distribution}

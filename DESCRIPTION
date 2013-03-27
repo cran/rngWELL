@@ -1,19 +1,22 @@
 Package: rngWELL
 Type: Package
 Title: toolbox for WELL random number generators.
-Version: 0.10-0
-Date: 2012-01-14
-Author: C code by F. Panneton, P. L'Ecuyer and M. Matsumoto and R port
-        by Christophe Dutang and Petr Savicky <savicky@cs.cas.cz>.
+Version: 0.10-1
+Date: 2013-03-27
+Author: all C code by F. Panneton, P. L'Ecuyer and M. Matsumoto and R
+        port by Christophe Dutang and Petr Savicky <savicky@cs.cas.cz>.
+        See LICENCE file for details.
 Maintainer: Christophe Dutang <christophe.dutang@ensimag.fr>
 Description: It is a dedicated package to WELL pseudo random
-        generators. But it is not intended to use it directly, you are
-        strongly __encouraged__ to directly use the 'randtoolbox'
-        package, which depends on this package.
+        generators, which were introduced in Panneton et al. (2006),
+        ``Improved Long-Period Generators Based on Linear Recurrences
+        Modulo 2'', ACM Transactions on Mathematical Software. But this
+        package is not intended to be used directly, you are strongly
+        __encouraged__ to use the 'randtoolbox' package, which depends
+        on this package.
 Depends: R (>= 2.6.0)
-License: file LICENSE
-Packaged: 2012-01-14 11:07:21 UTC; dutangc
-Repository: CRAN
-Date/Publication: 2012-01-15 13:16:16
+License: BSD_2_clause + file LICENSE
+Packaged: 2013-03-27 20:49:18 UTC; dutangc
 NeedsCompilation: yes
-License_restricts_use: yes
+Repository: CRAN
+Date/Publication: 2013-03-27 23:15:25
