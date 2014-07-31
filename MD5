@@ -1,15 +1,14 @@
-a80d6a22e45e75ca2f10330863d0e37f *DESCRIPTION
-c3061029116679573fa0028f27652441 *LICENSE
+e831200ba9918f294b061bdd306f0486 *DESCRIPTION
+0a156d0b24dedd56e987d04044f26c1d *LICENSE
 86351f67537f27cc6951031267e73e35 *NAMESPACE
 86257a4f790247b99142ac0e95da5d30 *R/pseudoRNG.R
 ad0bee316085277c28bbffa77a48e3cc *R/version.R
-1a39e1ba5e9bc60fffe8c365a9cabf11 *ax_ext.m4
 df4e35ea172a37477199014f6cca33d6 *cleanup
 ad0592ce735dc2eab5a03a1cc4e56e9e *configure
 582cb8c5e493fb15f7d0d4aac1eaa95e *configure.ac
 6bc3b362f2968a16ecb8e74c8a806ba0 *configure.win
-7c7c2b3c9b2fe1bd6913f4cb7782d70e *inst/CITATION
-4433766155ad424287dea60bb932f7be *inst/NEWS
+f2fa8ca47aa235c4c1febdea115d14c6 *inst/CITATION
+22c00edde1ee5b076b441435a11f99e9 *inst/NEWS
 62379a4c4d02a9a243cefc2414625be6 *man/pseudoRNG.Rd
 29c722a943a1dc218b90ed371e5ae95c *src/Makevars
 79d00df60bc45d5763575b383a3a9ae0 *src/WELL1024a.c
@@ -48,7 +47,7 @@ b87ea60c9419c45a5e17d17a89f807e8 *src/WELL800b.c
 cda9b90c4eb444c03cc102ce559cc442 *src/WELL800b.h
 e3f6473f9df34874db464d35be24e3b7 *src/WELLindexing.h
 cdf872a42f683f17512c531e20ada99d *src/WELLmatrices.h
-a1c622e44ab3f7dd80d76ef9a0eeefb6 *src/config.h
+a2d0085606bb1dc087ec45b1170f1b3d *src/config.h
 75c2195cfd8747750070253b2f5c9667 *src/config.h.in
 a2d0085606bb1dc087ec45b1170f1b3d *src/config.h.win
 603fd5ecab01e555258ea10fa5516a64 *src/init.c
@@ -57,4 +56,5 @@ a2d0085606bb1dc087ec45b1170f1b3d *src/config.h.win
 f33610486a69f61cebd8d5039722f1b9 *src/rngWELL.h
 e60b54a1617af84d9e96ffff31a88fd9 *src/runifInterface.c
 0f9088584434e783c76229aafc4ab5a5 *src/runifInterface.h
-6be0dfbfabf817c14d55d11d05057c0f *src/version.c
+f67cef8f54cd49370f32bf2bcf638c5d *src/version.c
+1a39e1ba5e9bc60fffe8c365a9cabf11 *tools/ax_ext.m4
