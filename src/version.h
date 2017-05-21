@@ -43,57 +43,13 @@
  *  
  */
 /*
- *  Torus algorithm to generate quasi random numbers 
- *
- *		init file
+ *  version file
  *  
- *	Native routines registration, see 'writing R extensions'
+ *			C file
  *
  */
 
 #include <R.h>
-#include <Rinternals.h>
-#include <R_ext/Rdynload.h>
-#include <stdlib.h> // for NULL
 
-#include "rngWELL.h"
-#include "version.h"
-
-
-//table of registration routines accessed with .C()
-static const R_CMethodDef cMethods[] = 
-{
-  {"initMT2002",      (DL_FUNC) &initMT2002, 3}, //rngWELL.h
-  {"putRngWELL",      (DL_FUNC) &putRngWELL, 3}, //rngWELL.h
-  {"getRngWELL",      (DL_FUNC) &getRngWELL, 3}, //rngWELL.h
-  {"version_rngWELL", (DL_FUNC) &version_rngWELL, 1}, //version.h
-  {NULL, NULL, 0}
-};
-
-
-//table of registration routines accessed with .Call()
-static const R_CallMethodDef callMethods[] = 
-{
-  {"doSetSeed4WELL",  (DL_FUNC) &doSetSeed4WELL, 1}, //rngWELL.h
-  {"doWELL",          (DL_FUNC) &doWELL, 5}, //rngWELL.h
-  {NULL, NULL, 0}
-};
-
-
-//register method accessed with .C, .Call, .Fortran, .External respectively
-void R_init_rngWELL(DllInfo *dll)
-{
-  //register method accessed with .Call
-  R_registerRoutines(dll, cMethods, callMethods, NULL, NULL); 
-  R_useDynamicSymbols(dll, FALSE); 
-  
-  //make rngWELL C functions available for other packages
-  R_RegisterCCallable("rngWELL", "setSeed4WELL", (DL_FUNC) setSeed4WELL);
-  R_RegisterCCallable("rngWELL", "WELLrng", (DL_FUNC) WELLrng);
-  R_RegisterCCallable("rngWELL", "WELL_get_set_entry_point", (DL_FUNC) WELL_get_set_entry_point);
-  /*R_RegisterCCallable("rngWELL", "initMT2002", (DL_FUNC) initMT2002);
-   R_RegisterCCallable("rngWELL", "putRngWELL", (DL_FUNC) putRngWELL);
-   R_RegisterCCallable("rngWELL", "getRngWELL", (DL_FUNC) getRngWELL);*/
-}
-
+void version_rngWELL(char **s);
 
