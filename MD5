@@ -1,4 +1,4 @@
-48d5da8beb76e3d0a3367d843bc29f52 *DESCRIPTION
+2e6ae0f82340e34e90f68b155579bcaa *DESCRIPTION
 79422b805922756cf731645ca3826da4 *LICENSE
 86351f67537f27cc6951031267e73e35 *NAMESPACE
 86257a4f790247b99142ac0e95da5d30 *R/pseudoRNG.R
@@ -8,7 +8,7 @@ df4e35ea172a37477199014f6cca33d6 *cleanup
 6e5c9d3b177516bf61ae90f5913f8032 *configure.ac
 6bc3b362f2968a16ecb8e74c8a806ba0 *configure.win
 f2fa8ca47aa235c4c1febdea115d14c6 *inst/CITATION
-28af22aa5ccacbce4a9a2880b8dbc9fc *inst/NEWS
+6d2595dfb8021a372d3456d2684f875f *inst/NEWS
 62379a4c4d02a9a243cefc2414625be6 *man/pseudoRNG.Rd
 29c722a943a1dc218b90ed371e5ae95c *src/Makevars
 79d00df60bc45d5763575b383a3a9ae0 *src/WELL1024a.c
@@ -52,11 +52,11 @@ ea69154ff4aee47fc68649d259548ee7 *src/config.h
 a2d0085606bb1dc087ec45b1170f1b3d *src/config.h.win
 738ebfd158bfa5364382628891f2186f *src/init.c
 251fb6af3a10b1f7fa75035072ace864 *src/locale.h
-0c2b7713568738530e3356e88692fdad *src/rngWELL.c
-92f160e2c1529c115c7b48d05ccb8101 *src/rngWELL.h
-e60b54a1617af84d9e96ffff31a88fd9 *src/runifInterface.c
+94fd836d7083a6fbb340e427b8540790 *src/rngWELL.c
+fdbe04f1727bf7b10374c618303b213c *src/rngWELL.h
+799dac9c991a0347b610d8245cd19570 *src/runifInterface.c
 0f9088584434e783c76229aafc4ab5a5 *src/runifInterface.h
-3ab1e9058c0c637f4aa232a898adabcb *src/version.c
+eb1152760494e5b47343a743329992cc *src/version.c
 3ec05fcf81c65f198b483423d844608c *src/version.h
 50ce7580be8b5b738fe6d01c4cb71519 *tests/test-well.R
 1a39e1ba5e9bc60fffe8c365a9cabf11 *tools/ax_ext.m4
