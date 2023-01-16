@@ -1,7 +1,7 @@
 Package: rngWELL
 Type: Package
 Title: Toolbox for WELL Random Number Generators
-Version: 0.10-8
+Version: 0.10-9
 Author: C code by F. Panneton [aut], P. L'Ecuyer [aut], M. Matsumoto [aut]
   and R port by Christophe Dutang [cre, aut], Petr Savicky [aut] <savicky@cs.cas.cz>
 Maintainer: Christophe Dutang <dutangc@gmail.com>
@@ -13,6 +13,6 @@ Description: It is a dedicated package to WELL pseudo random generators,
 Depends: R (>= 3.0.0)
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: yes
-Packaged: 2022-11-05 13:10:03 UTC; dutang
+Packaged: 2023-01-16 22:56:24 UTC; dutang
 Repository: CRAN
-Date/Publication: 2022-11-05 22:00:02 UTC
+Date/Publication: 2023-01-16 23:20:02 UTC
