@@ -1,5 +1,9 @@
 === rngWELL: WELL random number generators ===
 
+Version 0.10-10
+=============
+- add README
+
 Version 0.10-9
 =============
 - remove gcc check in configure.ac file generating config files
